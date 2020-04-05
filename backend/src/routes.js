@@ -8,7 +8,7 @@ const SessionController = require('./controller/SessionController')
 const routes = express.Router()
 
 // login
-routes.post('/session', SessionController.create)
+routes.post('/sessions', SessionController.create)
 
 // rotas de ONGs
 routes.get('/ongs', OngController.index);
