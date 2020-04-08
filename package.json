@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "node backend/src/index.js"
     "start-server": "cd ./backend/ && npm start",
     "start-web": "cd ./frontend/ && npm start",
     "start-mobile": "cd ./mobile/ && npm start",
-    "postinstall": "npm install --prefix server && npm install --prefix client",
+    "postinstall": "npm install --prefix backend && npm install --prefix frontend",
     "install-web": "cd ./frontend/ && npm install",
-    "installmobile": "cd ./mobile/ && npm install",
+    "install-mobile": "cd ./mobile/ && npm install",
     "install-server": "cd ./backend/ && npm install"
   },
   "repository": {
